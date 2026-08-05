@@ -1,11 +1,12 @@
 {
   "date": "2026-08-05",
   "target": 10,
-  "made": 3,
-  "slot": 3,
+  "made": 4,
+  "slot": 4,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
-    "insertion_sort"
+    "insertion_sort",
+    "gcd_lcm"
   ]
 }
