@@ -1,10 +1,11 @@
-# daily-python-snippets
+# vansh
 
-A small, transparent GitHub Actions bot that commits a random **5–10 times a
-day** to this repo. Every commit adds **real Python content** — a small
-utility function, algorithm, or data structure from
-[`bot/snippet_bank.py`](bot/snippet_bank.py), or (once the bank runs out) a
-pytest smoke test for an existing snippet — never empty/placeholder diffs.
+A small, transparent GitHub Actions bot ([Vanshhikaa04/vansh](https://github.com/Vanshhikaa04/vansh))
+that commits a random **5–10 times a day** to this repo. Every commit adds
+**real Python content** — a small utility function, algorithm, or data
+structure from [`bot/snippet_bank.py`](bot/snippet_bank.py), or (once the
+bank runs out) a pytest smoke test for an existing snippet — never
+empty/placeholder diffs.
 
 ## How it works
 
@@ -25,40 +26,31 @@ pytest smoke test for an existing snippet — never empty/placeholder diffs.
 
 ## One-time setup
 
-1. **Create the GitHub repo** and push this folder to it:
+The repo is already pushed to [Vanshhikaa04/vansh](https://github.com/Vanshhikaa04/vansh)
+(merged on top of the repo's original history). Two things left, both on
+github.com since they aren't things `git` can set:
 
-   ```bash
-   git init
-   git add -A
-   git commit -m "Initial scaffold for daily Python commit bot"
-   git branch -M main
-   git remote add origin https://github.com/<you>/daily-python-snippets.git
-   git push -u origin main
-   ```
-
-2. **Set the commit identity** so commits are credited to *your* GitHub
+1. **Set the commit identity** so commits are credited to *your* GitHub
    account (this is what actually makes them show up on your contribution
    graph — the workflow just runs in your repo, but git's `user.email`
-   determines who gets credit). In the repo on GitHub, go to
-   **Settings → Secrets and variables → Actions → Variables** and add:
+   determines who gets credit). Go to **Settings → Secrets and variables →
+   Actions → Variables** on the repo and add:
 
-   - `BOT_GIT_EMAIL` — an email address verified on your GitHub account.
-     Recommended: use your GitHub-provided **noreply** address (Settings →
-     Emails → enable "Keep my email addresses private", then copy the
-     `ID+username@users.noreply.github.com` address) so your real email
-     isn't published in public git history. This address still counts
-     toward your contribution graph.
+   - `BOT_GIT_EMAIL` = `268219499+Vanshhikaa04@users.noreply.github.com`
+     — this is the noreply address your account already used for earlier
+     commits in this repo, so it's confirmed to work and keeps your real
+     email out of public git history.
    - `BOT_GIT_NAME` (optional) — display name for the commits; defaults to
      the repo owner's username if unset.
 
-3. **Confirm Actions is enabled** for the repo (Settings → Actions →
+2. **Confirm Actions is enabled** for the repo (Settings → Actions →
    General → "Allow all actions") and that the default `GITHUB_TOKEN` has
    **Read and write permissions** (Settings → Actions → General →
-   Workflow permissions).
+   Workflow permissions → "Read and write permissions").
 
-4. That's it — the workflow will start firing on its own schedule. You can
-   also trigger a run manually from the **Actions** tab
-   ("Daily Python Commits" → **Run workflow**) to test it immediately.
+That's it — the workflow will start firing on its own schedule. You can
+also trigger a run manually from the **Actions** tab
+("Daily Python Commits" → **Run workflow**) to test it immediately.
 
 ## Local testing
 
