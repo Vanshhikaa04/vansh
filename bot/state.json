@@ -1,1 +1,9 @@
-{}
+{
+  "date": "2026-08-05",
+  "target": 10,
+  "made": 1,
+  "slot": 1,
+  "used_ids": [
+    "linked_list"
+  ]
+}
