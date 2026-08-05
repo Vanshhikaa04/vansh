@@ -1,9 +1,10 @@
 {
   "date": "2026-08-05",
   "target": 10,
-  "made": 1,
-  "slot": 1,
+  "made": 2,
+  "slot": 2,
   "used_ids": [
-    "linked_list"
+    "linked_list",
+    "run_length_encoding"
   ]
 }
