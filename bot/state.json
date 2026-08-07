@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-06",
-  "target": 5,
+  "date": "2026-08-07",
+  "target": 10,
   "made": 1,
   "slot": 1,
   "used_ids": [
@@ -8,6 +8,7 @@
     "run_length_encoding",
     "insertion_sort",
     "gcd_lcm",
-    "is_anagram"
+    "is_anagram",
+    "flatten_dict"
   ]
 }
