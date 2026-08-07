@@ -1,8 +1,8 @@
 {
   "date": "2026-08-07",
   "target": 10,
-  "made": 4,
-  "slot": 4,
+  "made": 5,
+  "slot": 5,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -12,6 +12,7 @@
     "flatten_dict",
     "sum_of_digits",
     "quick_sort",
-    "count_vowels"
+    "count_vowels",
+    "is_perfect_number"
   ]
 }
