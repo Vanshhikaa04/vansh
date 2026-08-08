@@ -1,8 +1,8 @@
 {
   "date": "2026-08-08",
   "target": 8,
-  "made": 4,
-  "slot": 4,
+  "made": 5,
+  "slot": 5,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -17,6 +17,7 @@
     "fibonacci",
     "binary_search",
     "find_duplicates",
-    "is_palindrome"
+    "is_palindrome",
+    "binary_tree"
   ]
 }
