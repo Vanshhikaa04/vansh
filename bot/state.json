@@ -1,8 +1,8 @@
 {
   "date": "2026-08-09",
   "target": 10,
-  "made": 2,
-  "slot": 2,
+  "made": 3,
+  "slot": 3,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -20,6 +20,7 @@
     "is_palindrome",
     "binary_tree",
     "min_stack",
-    "title_case"
+    "title_case",
+    "factorial"
   ]
 }
