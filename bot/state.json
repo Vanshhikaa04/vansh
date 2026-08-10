@@ -1,8 +1,8 @@
 {
   "date": "2026-08-10",
   "target": 9,
-  "made": 3,
-  "slot": 3,
+  "made": 4,
+  "slot": 4,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -26,6 +26,7 @@
     "transpose_matrix",
     "word_frequency",
     "stack",
-    "dedupe_preserve_order"
+    "dedupe_preserve_order",
+    "rotate_list"
   ]
 }
