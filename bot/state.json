@@ -1,8 +1,8 @@
 {
   "date": "2026-08-12",
   "target": 7,
-  "made": 3,
-  "slot": 3,
+  "made": 4,
+  "slot": 4,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -33,6 +33,7 @@
     "sieve_of_eratosthenes",
     "caesar_cipher",
     "chunked_reader",
-    "is_armstrong_number"
+    "is_armstrong_number",
+    "longest_common_prefix"
   ]
 }
