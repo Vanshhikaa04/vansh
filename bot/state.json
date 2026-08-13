@@ -1,8 +1,8 @@
 {
   "date": "2026-08-13",
   "target": 9,
-  "made": 1,
-  "slot": 1,
+  "made": 2,
+  "slot": 2,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -36,6 +36,7 @@
     "is_armstrong_number",
     "longest_common_prefix",
     "queue",
-    "moving_average"
+    "moving_average",
+    "chunk_list"
   ]
 }
