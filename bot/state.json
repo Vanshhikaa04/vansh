@@ -1,8 +1,8 @@
 {
   "date": "2026-08-14",
   "target": 10,
-  "made": 5,
-  "slot": 5,
+  "made": 6,
+  "slot": 6,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -43,6 +43,7 @@
     "bubble_sort",
     "flatten_list",
     "merge_sort",
-    "timer_decorator"
+    "timer_decorator",
+    "is_pangram"
   ]
 }
