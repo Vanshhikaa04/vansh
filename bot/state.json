@@ -1,8 +1,8 @@
 {
   "date": "2026-08-14",
   "target": 10,
-  "made": 3,
-  "slot": 3,
+  "made": 4,
+  "slot": 4,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -41,6 +41,7 @@
     "collatz_sequence",
     "retry_decorator",
     "bubble_sort",
-    "flatten_list"
+    "flatten_list",
+    "merge_sort"
   ]
 }
