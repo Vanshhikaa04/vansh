@@ -1,8 +1,8 @@
 {
   "date": "2026-08-15",
   "target": 9,
-  "made": 4,
-  "slot": 4,
+  "made": 5,
+  "slot": 5,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -48,6 +48,7 @@
     "memoize_decorator",
     "is_prime",
     "gcd_lcm",
-    "insertion_sort"
+    "insertion_sort",
+    "sum_of_digits"
   ]
 }
