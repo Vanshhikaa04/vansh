@@ -1,8 +1,8 @@
 {
   "date": "2026-08-17",
   "target": 10,
-  "made": 3,
-  "slot": 3,
+  "made": 4,
+  "slot": 4,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -56,6 +56,7 @@
     "merge_sort",
     "is_anagram",
     "flatten_list",
-    "binary_tree"
+    "binary_tree",
+    "caesar_cipher"
   ]
 }
