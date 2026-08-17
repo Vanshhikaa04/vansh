@@ -1,8 +1,8 @@
 {
   "date": "2026-08-17",
   "target": 10,
-  "made": 5,
-  "slot": 5,
+  "made": 6,
+  "slot": 6,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -58,6 +58,7 @@
     "flatten_list",
     "binary_tree",
     "caesar_cipher",
-    "factorial"
+    "factorial",
+    "is_pangram"
   ]
 }
