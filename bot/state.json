@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-16",
-  "target": 5,
-  "made": 3,
-  "slot": 3,
+  "date": "2026-08-17",
+  "target": 10,
+  "made": 1,
+  "slot": 1,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -53,6 +53,7 @@
     "run_length_encoding",
     "retry_decorator",
     "word_frequency",
-    "merge_sort"
+    "merge_sort",
+    "is_anagram"
   ]
 }
