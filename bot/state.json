@@ -1,8 +1,8 @@
 {
   "date": "2026-08-18",
   "target": 9,
-  "made": 2,
-  "slot": 2,
+  "made": 3,
+  "slot": 3,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -62,6 +62,7 @@
     "is_pangram",
     "min_stack",
     "dedupe_preserve_order",
-    "title_case"
+    "title_case",
+    "rotate_list"
   ]
 }
