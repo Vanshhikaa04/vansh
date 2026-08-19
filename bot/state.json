@@ -1,8 +1,8 @@
 {
   "date": "2026-08-19",
   "target": 8,
-  "made": 2,
-  "slot": 2,
+  "made": 3,
+  "slot": 3,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -68,6 +68,7 @@
     "chunked_reader",
     "transpose_matrix",
     "queue",
-    "longest_common_prefix"
+    "longest_common_prefix",
+    "moving_average"
   ]
 }
