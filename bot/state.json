@@ -1,8 +1,8 @@
 {
   "date": "2026-08-20",
   "target": 10,
-  "made": 2,
-  "slot": 2,
+  "made": 3,
+  "slot": 3,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -75,6 +75,7 @@
     "find_duplicates",
     "is_perfect_number",
     "stack",
-    "flatten_dict"
+    "flatten_dict",
+    "is_armstrong_number"
   ]
 }
