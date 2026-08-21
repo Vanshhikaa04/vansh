@@ -1,8 +1,8 @@
 {
   "date": "2026-08-21",
   "target": 8,
-  "made": 1,
-  "slot": 1,
+  "made": 2,
+  "slot": 2,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -80,6 +80,7 @@
     "is_prime",
     "linked_list",
     "singleton_decorator",
-    "power_iterative"
+    "power_iterative",
+    "chunk_list"
   ]
 }
