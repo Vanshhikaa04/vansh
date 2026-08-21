@@ -1,8 +1,8 @@
 {
   "date": "2026-08-21",
   "target": 8,
-  "made": 2,
-  "slot": 2,
+  "made": 3,
+  "slot": 3,
   "used_ids": [
     "linked_list",
     "run_length_encoding",
@@ -81,6 +81,7 @@
     "linked_list",
     "singleton_decorator",
     "power_iterative",
-    "chunk_list"
+    "chunk_list",
+    "fibonacci"
   ]
 }
